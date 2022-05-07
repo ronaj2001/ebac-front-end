@@ -1,0 +1,293 @@
+/* 
+
+	Arquivo CSS geral com estilos dos elementos de todas páginas 
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+	font-size: 62.5%; /* equivalente a 10px */
+}
+
+body {
+	background-color: #dcdcdc; 
+	/* background: url('../imagens/pattern.png') center top repeat #EEEEEE;*/
+
+}
+
+h1 {
+	font-size:2rem;/* Contato*/
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0952c1;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h2, li {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white/*#008080*/;
+}
+
+a {
+	color: #336;
+	text-decoration: none;
+}
+
+ul li {
+	font-size: 0.4em; /* equivalente a 16px */
+	font-size: 1.4rem; /* equivalente a 16px */
+	width: 80%;
+	height: 1.5rem; /* equivalente a 30px */
+	padding: 5px 0 15 5px; /* altera o espaço da caixa */
+}
+
+p {
+	font-size: 1.5px; /* equivalente a 16px */
+}
+
+h2 {
+	font-size: 1em; /* equivalente a 20px */
+	height: 2rem;
+}
+
+.navegacao li {
+	display: block;
+	line-height: 1.2rem;
+}
+
+.navegacao a {
+	color: #006400;
+	display: block;
+	margin-bottom: 1rem;
+	width: 100%;
+}
+
+form {
+	background: #eee;
+	padding: 5px;
+}
+
+form div {
+	background: #fff;
+	border-bottom: 1px solid #33f;
+	margin: 1rem;
+	padding: 2rem;
+}
+
+label {
+	margin-bottom: 1rem;
+	font-size: 1.4rem; 
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #FFA500;
+}
+
+input, [name="mensagem"]{
+	padding: 2rem;
+	color: #FFA500;
+}
+
+[type="text"], [type="email"], textarea, label {
+	display: block;
+	width: 102%;
+}
+
+
+header {
+  background-color: #00BFFF;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #00BFFF;
+  padding: 5px;
+  text-align: center;
+ color: white;
+}
+
+header h2 {
+	font-weight: 100;
+	font-size: 18px;
+}
+
+header > h2 {
+	font-weight: 600;
+}
+
+h2 + p {
+	background: #ee0;
+	color: #333;
+}
+
+h2 ~ h5 {
+	font-size: 1.2rem;
+}
+
+div ~ p {
+	text-transform: uppercase;
+}
+
+
+/* Pseudo-classes */
+
+a {
+	color: #555555;
+	text-decoration: none; /* o padrão é underline*/ 
+	font-size: 15px;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+a:visited {
+	color: rgb(211, 205, 205);
+}
+
+a:active {
+	color: #096;
+}
+
+a:hover {
+	color: #009;
+	background: #eee;
+}
+
+h2:hover {
+	color: #888;
+}
+
+/* 
+	Tipografia
+*/
+
+html {
+	font-family: sans-serif;
+}
+
+h1, h2 {
+	font-weight: 400;
+	font-family: 'Limelight', cursive;
+	font-size: 18px;
+}
+p {
+	font-weight: normal;
+	font-size: 1.5rem;
+}
+
+li {
+	letter-spacing: 0.01rem;
+	font-family: sans-serif;
+	line-height: 15px;
+}*/
+
+
+
+/* 
+	Cores
+*/
+
+section {
+	background: rgba(200, 200, 200, 0.95);
+}
+
+div p {
+	color: blue;
+	color: black;
+}
+
+header,
+footer {
+	background-color: #1E90FF;
+}
+
+footer p {
+	color: rgb(255, 255, 255);
+}
+
+.navegacao {
+	background-color: rgba(78, 77, 77, 0.3); /* altera a cor mai*/
+}
+
+.navegacao li a {
+	color: white;
+	font-size: 13px;
+	
+}
+
+.navegacao li a:hover {
+	background-color: rgba(150, 150, 200, 0.5);
+	color: #333333;
+}
+
+.table-container h1{
+	font-family: times new roman;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.aula {
+	font: italic bold 1.3rem/2 sans-serif;
+	font-weight: bold;
+ 	font-size: 18px;
+	color: #0952c1;
+	
+}
+
+.campos {
+	color: #0952c1;
+}
+
+@media (min-width: 312px) {
+    article, p, nav, .tipo {
+		width: 100%;
+		height: auto;		
+	}
+}
+
+@media (max-width: 680px) {
+    article, p, nav, .tipo {
+    width: 100%;
+    height: auto;
+ 	} 
+}
+
+/*@media screen and (max-witdh 1040px){
+
+}*/
+
+
+
