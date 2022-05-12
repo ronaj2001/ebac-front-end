@@ -1,31 +1,28 @@
-# ebac-front-end
-#GIT
-## Conceitos de versionamento
-- Histórico
-- Controle de versão
-- Quem alterou
-- O que alterou
-- Quando alterou
-- Todos arquivos
-- Evolução continua
+# Title
+- Hi, I'm Ronaldo José de Araújo  
+#  Subtitle
+- A frontend developer from Brazil
+# Work
+- I have a degree in Information Systems and currently work with an Industrial Automation Technician.
 
-Arquivo A | Versão 1 | Versão 2
-Arquivo B | Versão 1 | Versão 2
+- My passion is:
+- Programming languages, Frontend, Backend, Robotics, Electronics.
+## Skills
+- Frontend Development
+- GitHub, Html, CSS, JavaScript, React, 
 
-## Instalação do Git
-https://git-scm.com/
+- Database
+- MySql, PostgreSql, SqlServer, Oracle
+# Other
+- Linux, Windows, WindowsServer, Foxboro, CLP, Triconex 
 
-- Windows: https://git-scm.com/download/win
-- Linux (apt-get): sudo apt-get install git
-- Mac (brew): brew install git
-|
-|## Criar conta no GitHub
-|
-|## Clonar o projeto
-|
-|## Commits
-|Informação de alteração
-|- após testado todo seu código
+Redes Sociais
+- Likedin
+https://www.linkedin.com/in/ronaldo-josé-de-araújo-795b9b23/
 
-## GitFlow
-Fluxo do Git
+- Instagram
+https://www.instagram.com/araujoronaldojosede/
+
+- Facebook
+https://web.facebook.com/ronaldo.araujo.125323/
+
