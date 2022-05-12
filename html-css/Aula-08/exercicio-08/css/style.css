@@ -1,0 +1,201 @@
+/* 
+
+	Arquivo CSS geral com estilos dos elementos de todas páginas 
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+	font-family: sans-serif;
+	color: #0952c1;
+  
+}
+
+p {
+	color: #454545;
+}
+
+header p {
+	color: #fff;
+	font-size: 1.5rem;
+	
+}
+
+body {
+
+	 background-color: white;
+	  
+	}
+
+h1 {
+	font-size:2rem;/* Contato*/
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*
+h2 {
+	font-size: 1.8rem;
+}*/
+
+/*h2*/
+li {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white/*#008080*/;
+}
+
+a {
+	color: #336;
+	text-decoration: none;
+}
+
+#primeiro-link > a {
+	color: #933;
+}
+
+ul {
+	font-size: 10px;
+}
+
+ul li {
+	font-size: 0.4em; /* equivalente a 16px */
+	font-size: 1.4rem; /* equivalente a 16px */
+	width: 80%;
+	height: 3rem; /* equivalente a 30px */
+}
+/*
+p {
+	font-size: 1.6rem; /* equivalente a 16px */
+
+/* css antigos
+
+h2 {
+	font-size: 1em; /* equivalente a 20px */
+	/*height: 3rem;
+}*/
+/*
+.navegacao {
+	
+}*/
+
+.navegacao li {
+	border-bottom: 1px solid #F0E68C;
+	display: block;
+	padding: 1rem 1rem 2rem 1rem;
+	line-height: 1.2rem;
+}
+
+.navegacao a {
+	color: #006400;
+	display: block;
+	margin-bottom: 1rem;
+	width: 100%;
+}
+
+form {
+	background: #eee;
+	padding: 5px;
+}
+
+form div {
+	background: #fff;
+	border-bottom: 1px solid #33f;
+	margin: 1rem;
+	padding: 2rem;
+}
+
+label {
+	margin-bottom: 1rem;
+	font-size: 1.4rem; 
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #FFA500;
+}
+
+input, [name="mensagem"]{
+	padding: 2rem;
+	color: #FFA500;
+}
+
+[type="text"], [type="email"], textarea, label {
+	display: block;
+	width: 102%;
+}
+
+/*
+header {
+  background-color: #00BFFF;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}*/
+
+nav {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*
+footer {
+  background-color: #00BFFF;
+  padding: 10px;
+  text-align: center;
+ color: white;
+}*/
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  } 
+}
+
+header p {
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+header h2 {
+	font-weight: 100;
+}
+
+header > h2 {
+	font-weight: 600;
+}
+
+h2 + p {
+	background: #ee0;
+	color: #333;
+}
+
+h2 ~ h5 {
+	font-size: 1.2rem;
+}
+
+div ~ p {
+	text-transform: uppercase;
+}
+
+p {
+	color: #454545;
+}
+

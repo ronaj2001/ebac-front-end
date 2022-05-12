@@ -1,0 +1,98 @@
+<! DOCTYPE html>
+<html lang="pt-br">
+	   <head>
+	      	<title>HTML - Layouts</title>
+			<meta charsert="UTF-8">
+			<meta name="viewport" content="width-device-width, initial-scale-1">
+			<style>
+				* {
+				  box-sizing: border-box;
+			    }  
+			    body {
+			      font-family: Arial, Helvetica, sans-serif;
+			    }
+			    !--Style the header --!
+			    header {
+			    	background-color: #666;
+			    	padding: 30px;
+			    	text-align: center;
+			    	font-size: 35px;
+			    	color: white;
+			    }
+			    <!-- Create two columns/boxes --!>
+			    nav {
+			    	float: left;
+			    	width: 30%;
+			    	height: 300px;
+			    	background: #ccc;
+			    	padding: 20px;
+			    	}
+
+			    <!--Style the list inside the menu --!>
+
+			    nav ul{
+			    	list-style-type: nome;
+			    	padding: 0;
+			    }
+
+			    article{
+			    	float: left;
+			    	padding: 20px;
+			    	width: 70%;
+			    	background-color: #f1f1f1;
+			    	height: 300px; <!-- only for demonstration, should be removed --!>
+			    }
+
+			    <!-- Clear floats after the columns --!>
+			    section::after{
+			    	content: "";
+			    	display: table;
+			    	clear: both;
+			    }
+
+			    <!-- Style the footer --!>
+			    footer{
+			    	background-color: @777;
+			    	padding: 10px;
+			     	text-align: center;
+			     	color: white;
+			    }
+
+			    <!-- Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens --!>
+			    @media (max-witdh:  600px) {
+			    	nav, article{
+			    		width: 100px;
+			    		height: auto;
+			    	}
+			    }
+            </style>
+
+	    </head>
+	        <body>
+	  		    <header>
+	  		    	<h2>Título da página</h2>
+	  		    </header>
+	  		    <section>
+	  		    	<nav>
+	  		    		<ul>
+	  		    			<li><a href="#home">Home</a></li>
+	  		    			<li><a href="#sobbre">Sobre</a></li>
+	  		    			<li><a href="#contato">Contato</a>	
+	  		    	</nav>
+
+	  		    	<article>
+	  		    		
+	  		    		<h1>Título Artigo</h1>
+
+	  		    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia nibh at laoreet pharetra. Mauris cursus commodo urna, id porta erat. Nulla posuere facilisis ex, vitae placerat magna sollicitudin nec. Nunc efficitur et dolor ac dignissim. Proin consectetur quam eu sem venenatis consequat. Cras porta risus neque, sed commodo quam hendrerit quis. Maecenas erat eros, facilisis in tellus tempor, consequat tincidunt erat. Ut purus ex, accumsan a urna vel, suscipit tincidunt leo. Integer nisl lorem, hendrerit et dolor nec, laoreet pharetra lacus. Maecenas quis magna nibh. Pellentesque pretium quis nulla id finibus. Duis sit amet libero eget arcu condimentum faucibus. Integer facilisis justo lacus. Nullam mattis pulvinar consequat. Donec vehicula est orci, condimentum porttitor odio mollis a./p>
+
+						<p>Cras ut cursus ex, sed viverra dolor. Nullam sit amet maximus risus, quis elementum lacus. Praesent sagittis gravida elementum. Suspendisse non malesuada massa. Nam ac erat sit amet dolor aliquam imperdiet. Aliquam at dolor nec metus facilisis lacinia. Vivamus ultrices sodales sapien ut faucibus. Curabitur lectus nibh, rhoncus sed nunc ac, iaculis iaculis metus. Nunc vehicula metus non faucibus ullamcorper. Etiam eget ligula nulla. Pellentesque vestibulum rutrum massa, in maximus libero pharetra ut. Sed et scelerisque neque. Mauris lobortis est eget euismod mattis. Donec lectus nisl, finibus ac dapibus ac, pharetra ornare magna. Nunc non dapibus purus.</p>
+	  		    		
+	  		    	</article>
+	  		    </section>
+	  		    <footer>
+	  		    	<p>Desenvolvido por Ronaldo</p>
+	  		    </footer>
+
+	        </body>
+</html>

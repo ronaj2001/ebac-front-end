@@ -1,0 +1,26 @@
+/*
+{
+    margin: 0;
+    padding:0;
+}
+*/
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+h1,h2,p{
+    margin-bottom: 20px;
+}
+
+{
+    padding: 20px;
+    margin: 0;
+}
+*/
+
+.width-100{
+    width:100;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
